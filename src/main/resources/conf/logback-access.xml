@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>combined</Pattern>
+            <pattern>%h %l %u %user %date "%r" %s %b</pattern>
+        </encoder>
+    </appender>
+
+    <appender-ref ref="CONSOLE" />
+
+</configuration>
